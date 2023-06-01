@@ -3,65 +3,52 @@ const path = require('path');
 const axios = require('axios');
 const saveData = require('./scripts/save-data');
 const cheerioScraper = require('./scripts/cheerioScraper');
-const puppeteerScraper = require('./scripts/puppeteerScraper');
+const facilities = require('./data/facility-list');
 
 // VARS
+const data = [];
+const urls = [];
 const data_dir = 'data';
-const tmp_data_dir = 'tmp-data';
+// const tmp_data_dir = 'tmp-data';
 const filename = 'data'; // temp file for data
-const urls = ['https://www.gasbuddy.com/GasPrices/British%20Columbia/']; // URL to scrape
+const url_frag = 'http://edwaittimes.ca/Shared/Images/';
 
 
-async function init(urls, useCheerio) {
-	let html;
-	// get first url in the list
-	const url = urls.shift();
-	// clean it up a bit to use as a filename
-	const cleanUrl = url.split('//')[1].replace(/\//g, '_');
-	const htmlFilepath = `${tmp_data_dir}/${cleanUrl}.html`;
-	
-	// check if we already have the file downloaded
-	const fileExists = fs.existsSync(htmlFilepath);
-	
-	if (!fileExists) {
-		// download the HTML from the web server
-		console.log(`Downloading HTML from ${url}...`);
-		// fetchDeaths & fetchCases & other files
-		html = await axios.get(url);
-		
-		// save the HTML to disk
-		try {
-			await fs.promises.writeFile(path.join(__dirname, htmlFilepath), html.data, {flag: 'wx'});
-		} catch(err) { 
-			console.log(err);
-		}
-	} else {
-		console.log(`Skipping download for ${url} since ${cleanUrl} already exists.`);
-	}
-	
-	// load local copy of html
-	html = await fs.readFileSync(htmlFilepath);
 
-	// scrape downloaded file
-	const results = await processHTML(html, true);
+async function init() {
+	// build our url list
+	facilities.forEach(d => urls.push(`${url_frag}${d}.html`));
 
-	// if there's more links, let's do it again!
-	if(urls.length > 0) {
-		console.log('Downloading next url...');
-		downloadHTML(urls, true);
-	} else {
-		saveData(results, path.join(__dirname, `${data_dir}/${filename}`), 'csv');
-	}
+	// download HTML & save
+	downloadHTML(urls);
 }
 
-// scrape & cache results
-async function processHTML(html, useCheerio) {
-	return (useCheerio) ? await cheerioScraper(html) : await puppeteerScraper(html);
+async function downloadHTML(urls) {
+	let html; let results;
+	// get first url in the list
+	const url = urls.shift();
+
+	console.log(`Downloading HTML from ${url}...`);
+	// fetch html
+	html = await axios.get(url);
+
+	// scrape html
+	results = await cheerioScraper(html.data);
+	// some UPCCs don't show wait times. skip those
+	if (results !== undefined) data.push(results);
+
+	// if there's more links, let's do it again!
+	if (urls.length > 0) {
+		console.log('Downloading next url...');
+		
+		// download the html
+		downloadHTML(urls);
+	} else {
+		console.log("Saving data...")
+		saveData(data, path.join(__dirname, `${data_dir}/${filename}`), 'csv');
+	}
 }
 
 // kick isht off!!!
-init(urls, true); // set 'useCheerio' to false to run puppeteer
-
-
-
+init(); // set 'useCheerio' to false to run puppeteer
 
