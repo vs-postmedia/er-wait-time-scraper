@@ -16,7 +16,9 @@ async function saveData(data, filepath, format, data_dir) {
 			const parser = new Parser({
 				withBOM: true
 			});
-			fs.writeFileSync(`${filepath}.${format}`, parser.parse(data));
+			fs.writeFileSync(`${filepath}.${format}`, parser.parse(data), { flag: 'a'});
+			// we need a new line at the end for future appends
+			fs.writeFileSync(`${filepath}.${format}`, `\r\n`, { flag: 'a'});
 		} catch (err) {
 			console.error(err);
 		}
