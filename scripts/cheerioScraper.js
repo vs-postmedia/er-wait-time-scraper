@@ -15,6 +15,7 @@ async function cheerioScraper(html) {
 	// do some scraping
 	// Skip UPCCs that don't list wait times
 	if ($('.CellcW').length > 0) return;
+
 	// facility name
 	data.facility_name = $('.CellfcW2 a').text();
 	
@@ -33,10 +34,6 @@ async function cheerioScraper(html) {
 	data.timestamp = Date.now();
 
 	return data;
-}
-
-function getDate() {
-	const date = new Date();
 }
 
 module.exports = cheerioScraper;
