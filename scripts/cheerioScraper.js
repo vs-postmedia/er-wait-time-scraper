@@ -20,7 +20,7 @@ async function cheerioScraper(html) {
 	data.facility_name = $('.CellfcW2 a').text();
 	
 	// facility type
-	data.facility_time = data.facility_name.includes('Hospital') ? 'Hospital' : 'Clinic';
+	data.facility_type = data.facility_name.includes('Hospital') ? 'Hospital' : 'Clinic';
 
 	// wait times
 	const times = $('.Cell > p');
