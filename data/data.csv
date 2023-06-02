@@ -1,4 +1,4 @@
-﻿﻿"timestamp","date","time","facility_name","facility_time","wait_time","stay_length","status"
+﻿﻿"timestamp","date","time","facility_name","facility_type","wait_time","stay_length","status"
 1685675244091,"6/1/2023","8:07:24 PM","Abbotsford Regional Hospital","Hospital","04:38","06:25","Normal"
 1685675244231,"6/1/2023","8:07:24 PM","Chilliwack General Hospital","Hospital","03:03","04:25","Normal"
 1685675244386,"6/1/2023","8:07:24 PM","Langley Memorial Hospital","Hospital","02:32","05:39","Overcrowded"
