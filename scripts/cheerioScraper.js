@@ -29,7 +29,12 @@ async function cheerioScraper(html) {
 	
 	// hospital status
 	const src_text = $('.CellS img').attr('src');
-	data.status = src_text.includes('check') ? 'Normal' : 'Overcrowded';
+	if (src_text !== undefined) {
+		data.status = src_text.includes('check') ? 'Normal' : 'Overcrowded';
+	} else {
+		data.status = 'Undefined';
+	}
+	
 
 	data.timestamp = Date.now();
 
