@@ -17,7 +17,7 @@ async function init(filepath) {
     const mutated = T.tidy(
         data,
         T.mutate({
-            facility_name: d => d.facility_name.replace(' Hospital', ''),
+            'Hospital': d => d.facility_name.replace(' Hospital', ''),
             wait_time_mins: d => parseInt(d.wait_time.split(':')[0]) * 60 + parseInt(d.wait_time.split(':')[1]),
             stay_length_mins: d => parseInt(d.stay_length.split(':')[0]) * 60 + parseInt(d.stay_length.split(':')[1])
         })
@@ -26,7 +26,7 @@ async function init(filepath) {
     // overall median times...
     let hospital_medians = T.tidy(
         mutated,
-        T.groupBy('facility_name', [
+        T.groupBy('Hospital', [
             T.summarize({ 
                 med_wait_time: T.median('wait_time_mins'),
                 med_stay_length: T.median('stay_length_mins')
@@ -34,15 +34,15 @@ async function init(filepath) {
         ]),
         // median times as HH:MM string
         T.mutate({
-            wait_time_str: d => getDateString(d.med_wait_time),
-            stay_length_str: d => getDateString(d.med_stay_length)
+            'Wait time': d => getDateString(d.med_wait_time),
+            'Time until discharge': d => getDateString(d.med_stay_length)
         })
     );
 
     // daily median times...
     const daily_waits = T.tidy(
         mutated,
-        T.groupBy(['facility_name', 'date'], [
+        T.groupBy(['Hospital', 'date'], [
             T.summarize({ 
                 med_wait_time: T.median('wait_time_mins')
             })
@@ -53,7 +53,7 @@ async function init(filepath) {
     const daily_median_waits = T.tidy(
         daily_waits,
         T.pivotWider({
-            namesFrom: 'facility_name',
+            namesFrom: 'Hospital',
             valuesFrom: 'med_wait_time'
         })
     );
@@ -61,7 +61,7 @@ async function init(filepath) {
     // daily median stay length...
     const daily_stays = T.tidy(
         mutated,
-        T.groupBy(['facility_name', 'date'], [
+        T.groupBy(['Hospital', 'date'], [
             T.summarize({ 
                 daily_median_stays: T.median('stay_length_mins')
             })
@@ -72,7 +72,7 @@ async function init(filepath) {
     const daily_median_stays = T.tidy(
         daily_stays,
         T.pivotWider({
-            namesFrom: 'facility_name',
+            namesFrom: 'Hospital',
             valuesFrom: 'daily_median_stays'
         })
     );
