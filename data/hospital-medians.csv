@@ -1,52 +1,20 @@
 "facility_name","med_wait_time","med_stay_length"
-<<<<<<< HEAD
-"Abbotsford Regional Hospital",256,361
-"Chilliwack General Hospital",140,244
-"Langley Memorial Hospital",211,760
-"Lions Gate Hospital",128,264
-"Squamish General Hospital",97,177.5
-"Whistler Health Care Centre",33,114.5
-"Pemberton Health Centre",58,101
-"Sechelt Hospital",203,293
-"Richmond Hospital",235,304
-"Richmond Urgent and Primary Care Centre",176.5,161
-"Delta Hospital",112,235
-"Vancouver General Hospital",210,375
-"St. Paul's Hospital",84,236
-"Northeast Urgent and Primary Care Centre",148,139
-"Southeast Urgent and Primary Care Centre",156.5,165.5
-"BC Children's Hospital",272,317
-"Burnaby Hospital",157,271
-"Eagle Ridge Hospital",256,339
-"Peace Arch Hospital",221,304
-"Ridge Meadows Hospital",152,268
-"Royal Columbian Hospital",161,301
-"Surrey Memorial Hospital",171,295
-"Mount Saint Joseph Hospital",110,160
-"UBC Hospital (UBCH)",102,171
-=======
-"Abbotsford Regional",236,347.5
-"Chilliwack General",141,244
-"Langley Memorial",201,760
-"Lions Gate",123,264
-"Squamish General",105,182.5
-"Whistler Health Care Centre",32.5,114.5
-"Pemberton Health Centre",54,101
-"Sechelt",218,311.5
-"Richmond",236,313
-"Richmond Urgent and Primary Care Centre",189,172
-"Delta",128,194.5
-"Vancouver General",214,381
-"St. Paul's",77,246
-"Northeast Urgent and Primary Care Centre",150,154
-"Southeast Urgent and Primary Care Centre",164,170
-"BC Children's",272,317
-"Burnaby",177,279
+"Abbotsford Regional",248,354.5
+"Chilliwack General",141,238
+"Langley Memorial",210,733
+"Lions Gate",131,265
+"Squamish General",97,177
+"Sechelt",195,293
+"Richmond",225,304
+"Delta",113,221.5
+"Vancouver General",200,377
+"St. Paul's",85,234
+"BC Children's",259,314
+"Burnaby",157,262
 "Eagle Ridge",259,331
-"Peace Arch",228,330
-"Ridge Meadows",158,247
-"Royal Columbian",168,307
-"Surrey Memorial",166,295
-"Mount Saint Joseph",111,169
-"UBC (UBCH)",114,174
->>>>>>> summary-stats
+"Peace Arch",217,295
+"Ridge Meadows",152,264
+"Royal Columbian",158,291
+"Surrey Memorial",169,291.5
+"Mount Saint Joseph",111,164.5
+"UBC (UBCH)",108,171
