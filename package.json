@@ -14,7 +14,6 @@
     "@tidyjs/tidy": "^2.5.2",
     "axios": "^1.2.0",
     "cheerio": "^1.0.0-rc.12",
-    "csvtojson": "^2.0.10",
-    "json-2-csv": "^4.0.0"
+    "csvtojson": "^2.0.10"
   }
 }
