@@ -36,6 +36,10 @@ async function init(filepath) {
         T.mutate({
             'Wait time': d => getDateString(d.med_wait_time),
             'Time until discharge': d => getDateString(d.med_stay_length)
+        }),
+        // Fix bc childrens
+        T.mutate({
+            'Hospital': d => (d['Hospital'] === "BC Children's") ? 'B.C. Children’s' : d['Hospital']
         })
     );
 
