@@ -55,7 +55,7 @@ async function downloadHTML(urls) {
 	}
 }
 
-function saveSummaryStats() {
+async function saveSummaryStats() {
 	// get summary stats for charting, etc.
 	const stats = await summaryStats('./data/data.csv');
 		
