@@ -6,7 +6,10 @@ const csv = require('csvtojson');
 // FUNCTIONS
 async function init(filepath) {
     // load raw data
-    const data = await csv().fromFile(filepath);
+    let data = await csv()
+        .fromFile(filepath);
+        
+    data = data.filter(d => d.facility_type === 'Hospital');
 
     // convert HH:SS strings into minutes so we can do our maths...
     const mutated = T.tidy(
