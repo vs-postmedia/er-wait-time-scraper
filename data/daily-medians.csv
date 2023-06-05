@@ -1,0 +1,49 @@
+"facility_name","date","med_wait_time","med_stay_length"
+"Abbotsford Regional Hospital","6/1/2023",275,362.5
+"Abbotsford Regional Hospital","6/2/2023",273,354
+"Abbotsford Regional Hospital","6/3/2023",212.5,330
+"Abbotsford Regional Hospital","6/4/2023",238,319
+"Chilliwack General Hospital","6/1/2023",272,274
+"Chilliwack General Hospital","6/2/2023",66.5,226
+"Langley Memorial Hospital","6/1/2023",137.5,333.5
+"Langley Memorial Hospital","6/2/2023",296.5,659.5
+"Lions Gate Hospital","6/1/2023",66,313.5
+"Lions Gate Hospital","6/2/2023",108,249
+"Squamish General Hospital","6/1/2023",117.5,125
+"Squamish General Hospital","6/2/2023",132.5,177
+"Whistler Health Care Centre","6/1/2023",34.5,140
+"Whistler Health Care Centre","6/2/2023",28.5,62
+"Pemberton Health Centre","6/1/2023",14,103
+"Pemberton Health Centre","6/2/2023",21,80
+"Sechelt Hospital","6/1/2023",113,314.5
+"Sechelt Hospital","6/2/2023",148,73
+"Richmond Hospital","6/1/2023",141,296.5
+"Richmond Hospital","6/2/2023",221.5,266.5
+"Richmond Urgent and Primary Care Centre","6/1/2023",311.5,292.5
+"Richmond Urgent and Primary Care Centre","6/2/2023",57,52
+"Delta Hospital","6/1/2023",151.5,272
+"Delta Hospital","6/2/2023",150.5,326
+"Vancouver General Hospital","6/1/2023",232.5,375
+"Vancouver General Hospital","6/2/2023",295.5,378
+"St. Paul's Hospital","6/1/2023",91.5,301.5
+"St. Paul's Hospital","6/2/2023",25.5,272
+"Northeast Urgent and Primary Care Centre","6/1/2023",200,268
+"Northeast Urgent and Primary Care Centre","6/2/2023",80,57
+"Southeast Urgent and Primary Care Centre","6/1/2023",147,176
+"Southeast Urgent and Primary Care Centre","6/2/2023",44,67
+"BC Children's Hospital","6/1/2023",237.5,236
+"BC Children's Hospital","6/2/2023",381,397.5
+"Burnaby Hospital","6/1/2023",268,327
+"Burnaby Hospital","6/2/2023",362.5,356
+"Eagle Ridge Hospital","6/1/2023",267.5,330.5
+"Eagle Ridge Hospital","6/2/2023",520.5,508
+"Peace Arch Hospital","6/1/2023",269.5,284.5
+"Peace Arch Hospital","6/2/2023",375.5,430
+"Ridge Meadows Hospital","6/1/2023",360.5,366.5
+"Ridge Meadows Hospital","6/2/2023",47,286
+"Royal Columbian Hospital","6/1/2023",233,310
+"Royal Columbian Hospital","6/2/2023",246.5,372.5
+"Surrey Memorial Hospital","6/1/2023",215.5,350.5
+"Surrey Memorial Hospital","6/2/2023",455.5,512.5
+"Mount Saint Joseph Hospital","6/2/2023",74,105.5
+"UBC Hospital (UBCH)","6/2/2023",49,40
