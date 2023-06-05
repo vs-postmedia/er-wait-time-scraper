@@ -1,20 +1,25 @@
-"facility_name","med_wait_time","med_stay_length"
-"Abbotsford Regional",248,354.5
-"Chilliwack General",141,238
-"Langley Memorial",210,733
-"Lions Gate",131,265
-"Squamish General",97,177
-"Sechelt",195,293
-"Richmond",225,304
-"Delta",113,221.5
-"Vancouver General",200,377
-"St. Paul's",85,234
-"BC Children's",259,314
-"Burnaby",157,262
-"Eagle Ridge",259,331
-"Peace Arch",217,295
-"Ridge Meadows",152,264
-"Royal Columbian",158,291
-"Surrey Memorial",169,291.5
-"Mount Saint Joseph",111,164.5
-"UBC (UBCH)",108,171
+"facility_name","med_wait_time","med_stay_length","wait_time_str","stay_length_str"
+"Abbotsford Regional",245,354,"04:05","05:54"
+"Chilliwack General",141,237.5,"02:21","03:57"
+"Langley Memorial",208.5,729.5,"03:28","12:09"
+"Lions Gate",132,264.5,"02:12","04:24"
+"Squamish General",97,177,"01:37","02:57"
+"Whistler Health Care Centre",34,110,"00:34","01:50"
+"Pemberton Health Centre",62,101,"01:02","01:41"
+"Sechelt",195,293,"03:15","04:53"
+"Richmond",225,304,"03:45","05:04"
+"Richmond Urgent and Primary Care Centre",186,168,"03:06","02:48"
+"Delta",113,214,"01:53","03:34"
+"Vancouver General",197.5,379,"03:17","06:19"
+"St. Paul's",86,232,"01:26","03:52"
+"Northeast Urgent and Primary Care Centre",149,152,"02:29","02:32"
+"Southeast Urgent and Primary Care Centre",164,170,"02:44","02:50"
+"BC Children's",259,314,"04:19","05:14"
+"Burnaby",156,260,"02:36","04:20"
+"Eagle Ridge",262,331,"04:22","05:31"
+"Peace Arch",216,293.5,"03:36","04:53"
+"Ridge Meadows",154,264,"02:34","04:24"
+"Royal Columbian",156.5,288.5,"02:36","04:48"
+"Surrey Memorial",169,288,"02:49","04:48"
+"Mount Saint Joseph",114.5,168,"01:54","02:48"
+"UBC (UBCH)",114,173,"01:54","02:53"
