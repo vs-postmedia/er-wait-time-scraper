@@ -3,27 +3,27 @@
 "Abbotsford Regional Hospital","6/2/2023",273,354
 "Abbotsford Regional Hospital","6/3/2023",212.5,330
 "Abbotsford Regional Hospital","6/4/2023",227,354
-"Abbotsford Regional Hospital","6/5/2023",427.5,425.5
+"Abbotsford Regional Hospital","6/5/2023",555,457
 "Chilliwack General Hospital","6/1/2023",272,274
 "Chilliwack General Hospital","6/2/2023",97,222
 "Chilliwack General Hospital","6/3/2023",134.5,240.5
 "Chilliwack General Hospital","6/4/2023",176,244
-"Chilliwack General Hospital","6/5/2023",184,223
+"Chilliwack General Hospital","6/5/2023",187,244
 "Langley Memorial Hospital","6/1/2023",137.5,333.5
 "Langley Memorial Hospital","6/2/2023",255,586
 "Langley Memorial Hospital","6/3/2023",187,1182.5
 "Langley Memorial Hospital","6/4/2023",161,594
-"Langley Memorial Hospital","6/5/2023",213.5,522.5
+"Langley Memorial Hospital","6/5/2023",215,541
 "Lions Gate Hospital","6/1/2023",66,313.5
 "Lions Gate Hospital","6/2/2023",103,259
 "Lions Gate Hospital","6/3/2023",129,261
 "Lions Gate Hospital","6/4/2023",181,244
-"Lions Gate Hospital","6/5/2023",147.5,255
+"Lions Gate Hospital","6/5/2023",153,266
 "Squamish General Hospital","6/1/2023",117.5,125
 "Squamish General Hospital","6/2/2023",119,178.5
 "Squamish General Hospital","6/3/2023",43,177
 "Squamish General Hospital","6/4/2023",111,200
-"Squamish General Hospital","6/5/2023",31.5,166
+"Squamish General Hospital","6/5/2023",45,166
 "Whistler Health Care Centre","6/1/2023",34.5,140
 "Whistler Health Care Centre","6/2/2023",39,97
 "Whistler Health Care Centre","6/3/2023",39.5,157
@@ -41,7 +41,7 @@
 "Richmond Hospital","6/2/2023",225,295
 "Richmond Hospital","6/3/2023",230.5,375
 "Richmond Hospital","6/4/2023",253,332
-"Richmond Hospital","6/5/2023",210,264
+"Richmond Hospital","6/5/2023",207,264
 "Richmond Urgent and Primary Care Centre","6/1/2023",311.5,292.5
 "Richmond Urgent and Primary Care Centre","6/2/2023",156.5,135.5
 "Richmond Urgent and Primary Care Centre","6/3/2023",202,265.5
@@ -50,17 +50,17 @@
 "Delta Hospital","6/2/2023",201,277
 "Delta Hospital","6/3/2023",145.5,352
 "Delta Hospital","6/4/2023",69,178
-"Delta Hospital","6/5/2023",115,262
+"Delta Hospital","6/5/2023",112,262
 "Vancouver General Hospital","6/1/2023",232.5,375
 "Vancouver General Hospital","6/2/2023",185,381
 "Vancouver General Hospital","6/3/2023",188,361
 "Vancouver General Hospital","6/4/2023",297,409
-"Vancouver General Hospital","6/5/2023",203,379
+"Vancouver General Hospital","6/5/2023",193,375
 "St. Paul's Hospital","6/1/2023",91.5,301.5
 "St. Paul's Hospital","6/2/2023",38,254
 "St. Paul's Hospital","6/3/2023",74,246
 "St. Paul's Hospital","6/4/2023",90,234
-"St. Paul's Hospital","6/5/2023",158,238
+"St. Paul's Hospital","6/5/2023",155,236
 "Northeast Urgent and Primary Care Centre","6/1/2023",200,268
 "Northeast Urgent and Primary Care Centre","6/2/2023",147,154
 "Northeast Urgent and Primary Care Centre","6/3/2023",177,157
@@ -73,37 +73,37 @@
 "BC Children's Hospital","6/2/2023",283,376
 "BC Children's Hospital","6/3/2023",243,324.5
 "BC Children's Hospital","6/4/2023",259,288
-"BC Children's Hospital","6/5/2023",298,291.5
+"BC Children's Hospital","6/5/2023",318,295
 "Burnaby Hospital","6/1/2023",268,327
 "Burnaby Hospital","6/2/2023",244,337
 "Burnaby Hospital","6/3/2023",111.5,232
 "Burnaby Hospital","6/4/2023",157,223
-"Burnaby Hospital","6/5/2023",183.5,227
+"Burnaby Hospital","6/5/2023",123,232
 "Eagle Ridge Hospital","6/1/2023",267.5,330.5
 "Eagle Ridge Hospital","6/2/2023",360,429
 "Eagle Ridge Hospital","6/3/2023",163,389.5
 "Eagle Ridge Hospital","6/4/2023",224,288
-"Eagle Ridge Hospital","6/5/2023",365,393.5
+"Eagle Ridge Hospital","6/5/2023",336,406
 "Peace Arch Hospital","6/1/2023",269.5,284.5
 "Peace Arch Hospital","6/2/2023",308,388
 "Peace Arch Hospital","6/3/2023",217,293
 "Peace Arch Hospital","6/4/2023",186,258
-"Peace Arch Hospital","6/5/2023",270,305.5
+"Peace Arch Hospital","6/5/2023",246,304
 "Ridge Meadows Hospital","6/1/2023",360.5,366.5
 "Ridge Meadows Hospital","6/2/2023",118,264
 "Ridge Meadows Hospital","6/3/2023",162.5,255.5
 "Ridge Meadows Hospital","6/4/2023",178,232
-"Ridge Meadows Hospital","6/5/2023",231.5,301
+"Ridge Meadows Hospital","6/5/2023",197,319
 "Royal Columbian Hospital","6/1/2023",233,310
 "Royal Columbian Hospital","6/2/2023",203,309
 "Royal Columbian Hospital","6/3/2023",140.5,286
 "Royal Columbian Hospital","6/4/2023",158,307
-"Royal Columbian Hospital","6/5/2023",141,221.5
+"Royal Columbian Hospital","6/5/2023",161,223
 "Surrey Memorial Hospital","6/1/2023",215.5,350.5
 "Surrey Memorial Hospital","6/2/2023",185,393
 "Surrey Memorial Hospital","6/3/2023",130.5,363.5
 "Surrey Memorial Hospital","6/4/2023",141,238
-"Surrey Memorial Hospital","6/5/2023",158,277
+"Surrey Memorial Hospital","6/5/2023",180,283
 "Mount Saint Joseph Hospital","6/2/2023",116,179
 "Mount Saint Joseph Hospital","6/3/2023",125,183
 "Mount Saint Joseph Hospital","6/4/2023",93,146
