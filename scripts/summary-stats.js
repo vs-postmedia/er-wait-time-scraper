@@ -8,8 +8,10 @@ async function init(filepath) {
     // load raw data
     let data = await csv()
         .fromFile(filepath);
-        
-    data = data.filter(d => d.facility_type === 'Hospital');
+       
+    // data = data.filter(d => d.facility_type === 'Hospital');
+    // sometimes facility name comes back undefined
+    data = data.filter(d => d.facility_name !== undefined);
 
     // convert HH:SS strings into minutes so we can do our maths...
     const mutated = T.tidy(
