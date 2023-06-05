@@ -12,6 +12,7 @@ async function init(filepath) {
     const mutated = T.tidy(
         data,
         T.mutate({
+            facility_name: d => d.facility_name.replace(' Hospital', ''),
             wait_time_mins: d => parseInt(d.wait_time.split(':')[0]) * 60 + parseInt(d.wait_time.split(':')[1]),
             stay_length_mins: d => parseInt(d.stay_length.split(':')[0]) * 60 + parseInt(d.stay_length.split(':')[1])
         })
@@ -29,19 +30,46 @@ async function init(filepath) {
     );
 
     // daily median times...
-    const daily_medians = T.tidy(
+    const daily_waits = T.tidy(
         mutated,
         T.groupBy(['facility_name', 'date'], [
             T.summarize({ 
-                med_wait_time: T.median('wait_time_mins'),
-                med_stay_length: T.median('stay_length_mins')
+                med_wait_time: T.median('wait_time_mins')
             })
         ])
     );
 
+    // format daily wait times for flourish line chart
+    const daily_median_waits = T.tidy(
+        daily_waits,
+        T.pivotWider({
+            namesFrom: 'facility_name',
+            valuesFrom: 'med_wait_time'
+        })
+    );
+
+    // daily median stay length...
+    const daily_stays = T.tidy(
+        mutated,
+        T.groupBy(['facility_name', 'date'], [
+            T.summarize({ 
+                daily_median_stays: T.median('stay_length_mins')
+            })
+        ])
+    );
+
+    // format daily stay lengths for flourish line chart
+    const daily_median_stays = T.tidy(
+        daily_stays,
+        T.pivotWider({
+            namesFrom: 'facility_name',
+            valuesFrom: 'daily_median_stays'
+        })
+    );
     
     return {
-        daily_medians: daily_medians,
+        daily_median_waits: daily_median_waits,
+        daily_median_stays: daily_median_stays,
         hospital_medians: hospital_medians
     };
 }

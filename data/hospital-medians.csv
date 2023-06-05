@@ -1,4 +1,5 @@
 "facility_name","med_wait_time","med_stay_length"
+<<<<<<< HEAD
 "Abbotsford Regional Hospital",256,361
 "Chilliwack General Hospital",140,244
 "Langley Memorial Hospital",211,760
@@ -23,3 +24,29 @@
 "Surrey Memorial Hospital",171,295
 "Mount Saint Joseph Hospital",110,160
 "UBC Hospital (UBCH)",102,171
+=======
+"Abbotsford Regional",236,347.5
+"Chilliwack General",141,244
+"Langley Memorial",201,760
+"Lions Gate",123,264
+"Squamish General",105,182.5
+"Whistler Health Care Centre",32.5,114.5
+"Pemberton Health Centre",54,101
+"Sechelt",218,311.5
+"Richmond",236,313
+"Richmond Urgent and Primary Care Centre",189,172
+"Delta",128,194.5
+"Vancouver General",214,381
+"St. Paul's",77,246
+"Northeast Urgent and Primary Care Centre",150,154
+"Southeast Urgent and Primary Care Centre",164,170
+"BC Children's",272,317
+"Burnaby",177,279
+"Eagle Ridge",259,331
+"Peace Arch",228,330
+"Ridge Meadows",158,247
+"Royal Columbian",168,307
+"Surrey Memorial",166,295
+"Mount Saint Joseph",111,169
+"UBC (UBCH)",114,174
+>>>>>>> summary-stats

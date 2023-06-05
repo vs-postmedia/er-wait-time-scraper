@@ -63,8 +63,10 @@ async function saveSummaryStats() {
 	saveData(stats.hospital_medians, path.join(__dirname, `${data_dir}/hospital-medians`), 'csv', true);
 	
 	// daily medians for each facility
-	saveData(stats.daily_medians, path.join(__dirname, `${data_dir}/daily-medians`), 'csv', true);
+	saveData(stats.daily_median_waits, path.join(__dirname, `${data_dir}/daily-median-waits`), 'csv', true);
+	saveData(stats.daily_median_stays, path.join(__dirname, `${data_dir}/daily-median-stays`), 'csv', true);
 }
+
 // kick isht off!!!
 init();
 
