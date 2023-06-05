@@ -2,15 +2,17 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const saveData = require('./scripts/save-data');
-const facilities = require('./data/facility-list');
-const cheerioScraper = require('./scripts/cheerioScraper');
+const summaryStats = require('./scripts/summary-stats');
+const cheerioScraper = require('./scripts/ed-wait-times');
 
 // VARS
 const data = [];
 const urls = [];
 const data_dir = 'data';
-const filename = 'data'; // temp file for data
+const filename = 'data';
 const url_frag = 'http://edwaittimes.ca/Shared/Images/';
+const facilities = require('./data/facility-list'); // list of hospitals & UPCCs
+
 
 
 /***  FUNCTIONS  ***/
@@ -19,7 +21,7 @@ async function init() {
 	facilities.forEach(d => urls.push(`${url_frag}${d}.html`));
 
 	// download HTML & save
-	downloadHTML(urls);
+	await downloadHTML(urls);
 }
 
 async function downloadHTML(urls) {
@@ -43,7 +45,16 @@ async function downloadHTML(urls) {
 		downloadHTML(urls);
 	} else {
 		console.log("Saving data...")
-		saveData(data, path.join(__dirname, `${data_dir}/${filename}`), 'csv');
+		await saveData(data, path.join(__dirname, `${data_dir}/${filename}`), 'csv', false);
+		
+		// get summary stats for charting, etc.
+		const stats = await summaryStats('./data/data.csv');
+		
+		// overall hospital medians
+		saveData(stats.hospital_medians, path.join(__dirname, `${data_dir}/hospital-medians`), 'csv', true);
+		
+		// daily medians for each facility
+		saveData(stats.daily_medians, path.join(__dirname, `${data_dir}/daily-medians`), 'csv', true);
 	}
 }
 
