@@ -22,6 +22,9 @@ async function init() {
 
 	// download HTML & save
 	await downloadHTML(urls);
+
+	// save summaryStats
+	// saveSummaryStats();
 }
 
 async function downloadHTML(urls) {
@@ -47,17 +50,21 @@ async function downloadHTML(urls) {
 		console.log("Saving data...")
 		await saveData(data, path.join(__dirname, `${data_dir}/${filename}`), 'csv', false);
 		
-		// get summary stats for charting, etc.
-		const stats = await summaryStats('./data/data.csv');
-		
-		// overall hospital medians
-		saveData(stats.hospital_medians, path.join(__dirname, `${data_dir}/hospital-medians`), 'csv', true);
-		
-		// daily medians for each facility
-		saveData(stats.daily_medians, path.join(__dirname, `${data_dir}/daily-medians`), 'csv', true);
+		// get summary stats
+		saveSummaryStats();
 	}
 }
 
+function saveSummaryStats() {
+	// get summary stats for charting, etc.
+	const stats = await summaryStats('./data/data.csv');
+		
+	// overall hospital medians
+	saveData(stats.hospital_medians, path.join(__dirname, `${data_dir}/hospital-medians`), 'csv', true);
+	
+	// daily medians for each facility
+	saveData(stats.daily_medians, path.join(__dirname, `${data_dir}/daily-medians`), 'csv', true);
+}
 // kick isht off!!!
 init();
 
