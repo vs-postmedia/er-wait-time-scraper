@@ -21,10 +21,10 @@ async function init() {
 	facilities.forEach(d => urls.push(`${url_frag}${d}.html`));
 
 	// download HTML & save
-	// await downloadHTML(urls);
+	await downloadHTML(urls);
 
 	// get summary stats
-	saveSummaryStats();
+	// saveSummaryStats();
 }
 
 async function downloadHTML(urls) {
@@ -63,7 +63,8 @@ async function saveSummaryStats() {
 	saveData(stats.hospital_medians, path.join(__dirname, `${data_dir}/hospital-medians`), 'csv', true);
 	
 	// daily medians for each facility
-	saveData(stats.daily_medians, path.join(__dirname, `${data_dir}/daily-medians`), 'csv', true);
+	saveData(stats.daily_median_waits, path.join(__dirname, `${data_dir}/daily-median-waits`), 'csv', true);
+	saveData(stats.daily_median_stays, path.join(__dirname, `${data_dir}/daily-median-stays`), 'csv', true);
 }
 
 // kick isht off!!!

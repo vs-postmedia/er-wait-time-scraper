@@ -1,118 +1,118 @@
-"facility_name","date","med_wait_time","med_stay_length"
-"Abbotsford Regional Hospital","6/1/2023",275,362.5
-"Abbotsford Regional Hospital","6/2/2023",273,354
-"Abbotsford Regional Hospital","6/3/2023",212.5,330
-"Abbotsford Regional Hospital","6/4/2023",245,354
-"Chilliwack General Hospital","6/1/2023",272,274
-"Chilliwack General Hospital","6/2/2023",97,222
-"Chilliwack General Hospital","6/3/2023",134.5,240.5
-"Chilliwack General Hospital","6/4/2023",170,265
-"Chilliwack General Hospital","6/5/2023",86,160
-"Langley Memorial Hospital","6/1/2023",137.5,333.5
-"Langley Memorial Hospital","6/2/2023",255,586
-"Langley Memorial Hospital","6/3/2023",187,1182.5
-"Langley Memorial Hospital","6/4/2023",152,627
-"Langley Memorial Hospital","6/5/2023",146,856
-"Lions Gate Hospital","6/1/2023",66,313.5
-"Lions Gate Hospital","6/2/2023",103,259
-"Lions Gate Hospital","6/3/2023",129,261
-"Lions Gate Hospital","6/4/2023",178,264
-"Lions Gate Hospital","6/5/2023",111,315
-"Squamish General Hospital","6/1/2023",117.5,125
-"Squamish General Hospital","6/2/2023",119,178.5
-"Squamish General Hospital","6/3/2023",43,177
-"Squamish General Hospital","6/4/2023",115,210
-"Squamish General Hospital","6/5/2023",38,181
-"Whistler Health Care Centre","6/1/2023",34.5,140
-"Whistler Health Care Centre","6/2/2023",39,97
-"Whistler Health Care Centre","6/3/2023",39.5,157
-"Whistler Health Care Centre","6/4/2023",18,120
-"Whistler Health Care Centre","6/5/2023",48,100
-"Pemberton Health Centre","6/1/2023",14,103
-"Pemberton Health Centre","6/2/2023",44,80
-"Pemberton Health Centre","6/3/2023",54,87
-"Pemberton Health Centre","6/4/2023",68,169
-"Pemberton Health Centre","6/5/2023",20,44
-"Sechelt Hospital","6/1/2023",113,314.5
-"Sechelt Hospital","6/2/2023",224,280
-"Sechelt Hospital","6/3/2023",279.5,339
-"Sechelt Hospital","6/4/2023",218,303.5
-"Sechelt Hospital","6/5/2023",195,314
-"Richmond Hospital","6/1/2023",141,296.5
-"Richmond Hospital","6/2/2023",225,295
-"Richmond Hospital","6/3/2023",230.5,375
-"Richmond Hospital","6/4/2023",254,337
-"Richmond Hospital","6/5/2023",80,261
-"Richmond Urgent and Primary Care Centre","6/1/2023",311.5,292.5
-"Richmond Urgent and Primary Care Centre","6/2/2023",156.5,135.5
-"Richmond Urgent and Primary Care Centre","6/3/2023",202,265.5
-"Richmond Urgent and Primary Care Centre","6/4/2023",174,152
-"Richmond Urgent and Primary Care Centre","6/5/2023",99,105
-"Delta Hospital","6/1/2023",151.5,272
-"Delta Hospital","6/2/2023",201,277
-"Delta Hospital","6/3/2023",145.5,352
-"Delta Hospital","6/4/2023",62,177.5
-"Delta Hospital","6/5/2023",51,135
-"Vancouver General Hospital","6/1/2023",232.5,375
-"Vancouver General Hospital","6/2/2023",185,381
-"Vancouver General Hospital","6/3/2023",188,361
-"Vancouver General Hospital","6/4/2023",295,432
-"Vancouver General Hospital","6/5/2023",92,291
-"St. Paul's Hospital","6/1/2023",91.5,301.5
-"St. Paul's Hospital","6/2/2023",38,254
-"St. Paul's Hospital","6/3/2023",74,246
-"St. Paul's Hospital","6/4/2023",89,230
-"St. Paul's Hospital","6/5/2023",88,221
-"Northeast Urgent and Primary Care Centre","6/1/2023",200,268
-"Northeast Urgent and Primary Care Centre","6/2/2023",147,154
-"Northeast Urgent and Primary Care Centre","6/3/2023",177,157
-"Northeast Urgent and Primary Care Centre","6/4/2023",123,123.5
-"Northeast Urgent and Primary Care Centre","6/5/2023",68,65
-"Southeast Urgent and Primary Care Centre","6/1/2023",147,176
-"Southeast Urgent and Primary Care Centre","6/2/2023",121,174
-"Southeast Urgent and Primary Care Centre","6/3/2023",283,197.5
-"Southeast Urgent and Primary Care Centre","6/4/2023",178,137
-"Southeast Urgent and Primary Care Centre","6/5/2023",97,93
-"BC Children's Hospital","6/1/2023",237.5,236
-"BC Children's Hospital","6/2/2023",283,376
-"BC Children's Hospital","6/3/2023",243,324.5
-"BC Children's Hospital","6/4/2023",275,292
-"BC Children's Hospital","6/5/2023",79,314
-"Burnaby Hospital","6/1/2023",268,327
-"Burnaby Hospital","6/2/2023",244,337
-"Burnaby Hospital","6/3/2023",111.5,232
-"Burnaby Hospital","6/4/2023",160,228
-"Burnaby Hospital","6/5/2023",43,283
-"Eagle Ridge Hospital","6/1/2023",267.5,330.5
-"Eagle Ridge Hospital","6/2/2023",360,429
-"Eagle Ridge Hospital","6/3/2023",163,389.5
-"Eagle Ridge Hospital","6/4/2023",207,279
-"Eagle Ridge Hospital","6/5/2023",135,232
-"Peace Arch Hospital","6/1/2023",269.5,284.5
-"Peace Arch Hospital","6/2/2023",308,388
-"Peace Arch Hospital","6/3/2023",217,293
-"Peace Arch Hospital","6/4/2023",162,252
-"Peace Arch Hospital","6/5/2023",53,187
-"Ridge Meadows Hospital","6/1/2023",360.5,366.5
-"Ridge Meadows Hospital","6/2/2023",118,264
-"Ridge Meadows Hospital","6/3/2023",162.5,255.5
-"Ridge Meadows Hospital","6/4/2023",168,229
-"Ridge Meadows Hospital","6/5/2023",48,118
-"Royal Columbian Hospital","6/1/2023",233,310
-"Royal Columbian Hospital","6/2/2023",203,309
-"Royal Columbian Hospital","6/3/2023",140.5,286
-"Royal Columbian Hospital","6/4/2023",160,310
-"Royal Columbian Hospital","6/5/2023",45,256
-"Surrey Memorial Hospital","6/1/2023",215.5,350.5
-"Surrey Memorial Hospital","6/2/2023",185,393
-"Surrey Memorial Hospital","6/3/2023",130.5,363.5
-"Surrey Memorial Hospital","6/4/2023",139,234
-"Surrey Memorial Hospital","6/5/2023",129,400
-"Mount Saint Joseph Hospital","6/2/2023",116,179
-"Mount Saint Joseph Hospital","6/3/2023",125,183
-"Mount Saint Joseph Hospital","6/4/2023",93,146
-"Mount Saint Joseph Hospital","6/5/2023",66,89
-"UBC Hospital (UBCH)","6/2/2023",173,183
-"UBC Hospital (UBCH)","6/3/2023",128,187.5
-"UBC Hospital (UBCH)","6/4/2023",102,176
-"UBC Hospital (UBCH)","6/5/2023",67,58
+"facility_name","date","med_wait_time"
+"Abbotsford Regional Hospital","6/1/2023",275
+"Abbotsford Regional Hospital","6/2/2023",273
+"Abbotsford Regional Hospital","6/3/2023",212.5
+"Abbotsford Regional Hospital","6/4/2023",245
+"Chilliwack General Hospital","6/1/2023",272
+"Chilliwack General Hospital","6/2/2023",97
+"Chilliwack General Hospital","6/3/2023",134.5
+"Chilliwack General Hospital","6/4/2023",170
+"Chilliwack General Hospital","6/5/2023",86
+"Langley Memorial Hospital","6/1/2023",137.5
+"Langley Memorial Hospital","6/2/2023",255
+"Langley Memorial Hospital","6/3/2023",187
+"Langley Memorial Hospital","6/4/2023",152
+"Langley Memorial Hospital","6/5/2023",146
+"Lions Gate Hospital","6/1/2023",66
+"Lions Gate Hospital","6/2/2023",103
+"Lions Gate Hospital","6/3/2023",129
+"Lions Gate Hospital","6/4/2023",178
+"Lions Gate Hospital","6/5/2023",111
+"Squamish General Hospital","6/1/2023",117.5
+"Squamish General Hospital","6/2/2023",119
+"Squamish General Hospital","6/3/2023",43
+"Squamish General Hospital","6/4/2023",115
+"Squamish General Hospital","6/5/2023",38
+"Whistler Health Care Centre","6/1/2023",34.5
+"Whistler Health Care Centre","6/2/2023",39
+"Whistler Health Care Centre","6/3/2023",39.5
+"Whistler Health Care Centre","6/4/2023",18
+"Whistler Health Care Centre","6/5/2023",48
+"Pemberton Health Centre","6/1/2023",14
+"Pemberton Health Centre","6/2/2023",44
+"Pemberton Health Centre","6/3/2023",54
+"Pemberton Health Centre","6/4/2023",68
+"Pemberton Health Centre","6/5/2023",20
+"Sechelt Hospital","6/1/2023",113
+"Sechelt Hospital","6/2/2023",224
+"Sechelt Hospital","6/3/2023",279.5
+"Sechelt Hospital","6/4/2023",218
+"Sechelt Hospital","6/5/2023",195
+"Richmond Hospital","6/1/2023",141
+"Richmond Hospital","6/2/2023",225
+"Richmond Hospital","6/3/2023",230.5
+"Richmond Hospital","6/4/2023",254
+"Richmond Hospital","6/5/2023",80
+"Richmond Urgent and Primary Care Centre","6/1/2023",311.5
+"Richmond Urgent and Primary Care Centre","6/2/2023",156.5
+"Richmond Urgent and Primary Care Centre","6/3/2023",202
+"Richmond Urgent and Primary Care Centre","6/4/2023",174
+"Richmond Urgent and Primary Care Centre","6/5/2023",99
+"Delta Hospital","6/1/2023",151.5
+"Delta Hospital","6/2/2023",201
+"Delta Hospital","6/3/2023",145.5
+"Delta Hospital","6/4/2023",62
+"Delta Hospital","6/5/2023",51
+"Vancouver General Hospital","6/1/2023",232.5
+"Vancouver General Hospital","6/2/2023",185
+"Vancouver General Hospital","6/3/2023",188
+"Vancouver General Hospital","6/4/2023",295
+"Vancouver General Hospital","6/5/2023",92
+"St. Paul's Hospital","6/1/2023",91.5
+"St. Paul's Hospital","6/2/2023",38
+"St. Paul's Hospital","6/3/2023",74
+"St. Paul's Hospital","6/4/2023",89
+"St. Paul's Hospital","6/5/2023",88
+"Northeast Urgent and Primary Care Centre","6/1/2023",200
+"Northeast Urgent and Primary Care Centre","6/2/2023",147
+"Northeast Urgent and Primary Care Centre","6/3/2023",177
+"Northeast Urgent and Primary Care Centre","6/4/2023",123
+"Northeast Urgent and Primary Care Centre","6/5/2023",68
+"Southeast Urgent and Primary Care Centre","6/1/2023",147
+"Southeast Urgent and Primary Care Centre","6/2/2023",121
+"Southeast Urgent and Primary Care Centre","6/3/2023",283
+"Southeast Urgent and Primary Care Centre","6/4/2023",178
+"Southeast Urgent and Primary Care Centre","6/5/2023",97
+"BC Children's Hospital","6/1/2023",237.5
+"BC Children's Hospital","6/2/2023",283
+"BC Children's Hospital","6/3/2023",243
+"BC Children's Hospital","6/4/2023",275
+"BC Children's Hospital","6/5/2023",79
+"Burnaby Hospital","6/1/2023",268
+"Burnaby Hospital","6/2/2023",244
+"Burnaby Hospital","6/3/2023",111.5
+"Burnaby Hospital","6/4/2023",160
+"Burnaby Hospital","6/5/2023",43
+"Eagle Ridge Hospital","6/1/2023",267.5
+"Eagle Ridge Hospital","6/2/2023",360
+"Eagle Ridge Hospital","6/3/2023",163
+"Eagle Ridge Hospital","6/4/2023",207
+"Eagle Ridge Hospital","6/5/2023",135
+"Peace Arch Hospital","6/1/2023",269.5
+"Peace Arch Hospital","6/2/2023",308
+"Peace Arch Hospital","6/3/2023",217
+"Peace Arch Hospital","6/4/2023",162
+"Peace Arch Hospital","6/5/2023",53
+"Ridge Meadows Hospital","6/1/2023",360.5
+"Ridge Meadows Hospital","6/2/2023",118
+"Ridge Meadows Hospital","6/3/2023",162.5
+"Ridge Meadows Hospital","6/4/2023",168
+"Ridge Meadows Hospital","6/5/2023",48
+"Royal Columbian Hospital","6/1/2023",233
+"Royal Columbian Hospital","6/2/2023",203
+"Royal Columbian Hospital","6/3/2023",140.5
+"Royal Columbian Hospital","6/4/2023",160
+"Royal Columbian Hospital","6/5/2023",45
+"Surrey Memorial Hospital","6/1/2023",215.5
+"Surrey Memorial Hospital","6/2/2023",185
+"Surrey Memorial Hospital","6/3/2023",130.5
+"Surrey Memorial Hospital","6/4/2023",139
+"Surrey Memorial Hospital","6/5/2023",129
+"Mount Saint Joseph Hospital","6/2/2023",116
+"Mount Saint Joseph Hospital","6/3/2023",125
+"Mount Saint Joseph Hospital","6/4/2023",93
+"Mount Saint Joseph Hospital","6/5/2023",66
+"UBC Hospital (UBCH)","6/2/2023",173
+"UBC Hospital (UBCH)","6/3/2023",128
+"UBC Hospital (UBCH)","6/4/2023",102
+"UBC Hospital (UBCH)","6/5/2023",67
