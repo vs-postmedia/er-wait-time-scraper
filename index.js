@@ -3,7 +3,7 @@ const path = require('path');
 const axios = require('axios');
 const saveData = require('./scripts/save-data');
 const summaryStats = require('./scripts/summary-stats');
-const cheerioScraper = require('./scripts/ed-wait-times');
+const cheerioScraper = require('./scripts/scrape-wait-times');
 
 // VARS
 const data = [];
