@@ -1,25 +1,25 @@
 "facility_name","med_wait_time","med_stay_length"
-"Abbotsford Regional Hospital",259,354.5
-"Chilliwack General Hospital",142.5,244
-"Langley Memorial Hospital",215,729.5
-"Lions Gate Hospital",126.5,262.5
-"Squamish General Hospital",99,177
-"Whistler Health Care Centre",32,123
+"Abbotsford Regional Hospital",259,355
+"Chilliwack General Hospital",142,244
+"Langley Memorial Hospital",215,733
+"Lions Gate Hospital",128,264
+"Squamish General Hospital",97,177.5
+"Whistler Health Care Centre",32.5,121.5
 "Pemberton Health Centre",54,101
-"Sechelt Hospital",207.5,294
-"Richmond Hospital",238.5,306.5
-"Richmond Urgent and Primary Care Centre",177,173
-"Delta Hospital",112.5,246
-"Vancouver General Hospital",213.5,375
-"St. Paul's Hospital",76,236
-"Northeast Urgent and Primary Care Centre",148.5,152
-"Southeast Urgent and Primary Care Centre",161,166
-"BC Children's Hospital",275,321.5
-"Burnaby Hospital",160.5,276.5
-"Eagle Ridge Hospital",266.5,346
-"Peace Arch Hospital",231.5,308
-"Ridge Meadows Hospital",154,273.5
-"Royal Columbian Hospital",168.5,306.5
-"Surrey Memorial Hospital",175.5,295
-"Mount Saint Joseph Hospital",109.5,174
+"Sechelt Hospital",205,294
+"Richmond Hospital",236,305
+"Richmond Urgent and Primary Care Centre",176.5,170
+"Delta Hospital",112,244.5
+"Vancouver General Hospital",213,375
+"St. Paul's Hospital",77,236
+"Northeast Urgent and Primary Care Centre",148,150
+"Southeast Urgent and Primary Care Centre",156.5,165.5
+"BC Children's Hospital",275,322
+"Burnaby Hospital",160,279
+"Eagle Ridge Hospital",265,343
+"Peace Arch Hospital",228,307
+"Ridge Meadows Hospital",152,271
+"Royal Columbian Hospital",168,306
+"Surrey Memorial Hospital",177,295
+"Mount Saint Joseph Hospital",108,172
 "UBC Hospital (UBCH)",102,174
