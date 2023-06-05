@@ -19,14 +19,19 @@ async function init(filepath) {
     );
 
     // overall median times...
-    const hospital_medians = T.tidy(
+    let hospital_medians = T.tidy(
         mutated,
         T.groupBy('facility_name', [
             T.summarize({ 
                 med_wait_time: T.median('wait_time_mins'),
                 med_stay_length: T.median('stay_length_mins')
             })
-        ])
+        ]),
+        // median times as HH:MM string
+        T.mutate({
+            wait_time_str: d => getDateString(d.med_wait_time),
+            stay_length_str: d => getDateString(d.med_stay_length)
+        })
     );
 
     // daily median times...
@@ -72,6 +77,10 @@ async function init(filepath) {
         daily_median_stays: daily_median_stays,
         hospital_medians: hospital_medians
     };
+}
+
+function getDateString(x) {
+    return new Date(x * 60 * 1000).toISOString().substr(11,5);
 }
 
 module.exports = init;
