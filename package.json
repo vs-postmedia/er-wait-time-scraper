@@ -1,5 +1,5 @@
 {
-  "name": "web-scraper-template",
+  "name": "bc-er-wait-times-scraper",
   "version": "1.0.0",
   "description": "Bootstrap a node web scraper",
   "main": "index.js",
