@@ -89,7 +89,15 @@ async function init(filepath) {
 }
 
 function getDateString(x) {
-    return new Date(x * 60 * 1000).toISOString().substr(11,5);
+    let dateString;
+
+    console.log(x)
+    try {
+        dateString = new Date(x * 60 * 1000).toISOString().substring(11,5);
+    } catch (err) {
+        console.error(err);
+    }
+    return dateString;
 }
 
 module.exports = init;
