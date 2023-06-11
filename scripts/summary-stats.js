@@ -90,8 +90,6 @@ async function init(filepath) {
 
 function getDateString(x) {
     let dateString;
-
-    console.log(x)
     try {
         dateString = new Date(x * 60 * 1000).toISOString().substring(11,5);
     } catch (err) {
