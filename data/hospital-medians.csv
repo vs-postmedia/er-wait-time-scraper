@@ -1,26 +1,26 @@
-"Hospital","med_wait_time","med_stay_length","Wait time","Time until discharge"
-"Abbotsford Regional",272,393.5,"01-01T","01-01T"
-"Chilliwack General",114,229,"01-01T","01-01T"
-"Langley Memorial",155,384,"01-01T","01-01T"
-"Lions Gate",140,278,"01-01T","01-01T"
-"Squamish General",91.5,184,"01-01T","01-01T"
-"Whistler Health Care Centre",28,111,"01-01T","01-01T"
-"Pemberton Health Centre",53,98,"01-01T","01-01T"
-"Sechelt",146.5,253.5,"01-01T","01-01T"
-"Richmond",215,297,"01-01T","01-01T"
-"Richmond Urgent and Primary Care Centre",183,172,"01-01T","01-01T"
-"Delta",119,256,"01-01T","01-01T"
-"Vancouver General",208,396,"01-01T","01-01T"
-"St. Paul's",91,244,"01-01T","01-01T"
-"Northeast Urgent and Primary Care Centre",136.5,146,"01-01T","01-01T"
-"Southeast Urgent and Primary Care Centre",149,158,"01-01T","01-01T"
-"B.C. Children’s",246,331,"01-01T","01-01T"
-"Burnaby",186,291,"01-01T","01-01T"
-"Eagle Ridge",256,348,"01-01T","01-01T"
-"Peace Arch",186,306,"01-01T","01-01T"
-"Ridge Meadows",137,252,"01-01T","01-01T"
-"Royal Columbian",153,301,"01-01T","01-01T"
-"Surrey Memorial",171,295,"01-01T","01-01T"
-"Mount Saint Joseph",104,174.5,"01-01T","01-01T"
-"UBC (UBCH)",109,161.5,"01-01T","01-01T"
-"",,,,
+"Hospital","med_wait_time","med_stay_length"
+"Abbotsford Regional",264,388
+"Chilliwack General",115,229
+"Langley Memorial",153,382
+"Lions Gate",137.5,275.5
+"Squamish General",92,184
+"Whistler Health Care Centre",28,111
+"Pemberton Health Centre",53,98
+"Sechelt",153,258
+"Richmond",213,292
+"Richmond Urgent and Primary Care Centre",185,172
+"Delta",119,255.5
+"Vancouver General",212,396
+"St. Paul's",93.5,246
+"Northeast Urgent and Primary Care Centre",137.5,146
+"Southeast Urgent and Primary Care Centre",150,158
+"B.C. Children’s",245,332
+"Burnaby",184,289
+"Eagle Ridge",258,348
+"Peace Arch",185.5,304
+"Ridge Meadows",136.5,250
+"Royal Columbian",154,301
+"Surrey Memorial",170,291
+"Mount Saint Joseph",104,175
+"UBC (UBCH)",112,164
+"",,
