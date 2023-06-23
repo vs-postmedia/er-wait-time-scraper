@@ -8,10 +8,18 @@ async function init(filepath) {
     // load raw data
     let data = await csv()
         .fromFile(filepath);
+
+    // get today's date
+    const today = new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }).split(',')[0];
        
-    // data = data.filter(d => d.facility_type === 'Hospital');
-    // sometimes facility name comes back undefined
-    data = data.filter(d => d.facility_name !== undefined);
+    // filter data
+    data = data
+        // sometimes facility name comes back undefined
+        .filter(d => d.facility_name !== undefined)
+        // we don't really care about urgent care centres
+        // .filter(d => d.facility_type === 'Hospital');
+        // we don't want data from current day, since it's incomplete
+        .filter(d => d.date !== today);
 
     // convert HH:SS strings into minutes so we can do our maths...
     const mutated = T.tidy(
@@ -33,10 +41,10 @@ async function init(filepath) {
             })
         ]),
         // median times as HH:MM string
-        T.mutate({
-            'Wait time': d => getDateString(d.med_wait_time),
-            'Time until discharge': d => getDateString(d.med_stay_length)
-        }),
+        // T.mutate({
+        //     'Wait time': d => getDateString(d.med_wait_time),
+        //     'Time until discharge': d => getDateString(d.med_stay_length)
+        // }),
         // Fix bc childrens
         T.mutate({
             'Hospital': d => (d['Hospital'] === "BC Children's") ? 'B.C. Children’s' : d['Hospital']
@@ -90,10 +98,9 @@ async function init(filepath) {
 
 function getDateString(x) {
     let dateString;
-    try {
+
+    if (x !== undefined) {
         dateString = new Date(x * 60 * 1000).toISOString().substring(11,5);
-    } catch (err) {
-        console.error(err);
     }
     return dateString;
 }
