@@ -1,24 +1,24 @@
 "Hospital","med_wait_time","med_stay_length"
-"Abbotsford Regional",246,385
-"Chilliwack General",119,234
-"Langley Memorial",164,468
-"Lions Gate",131,274
+"Abbotsford Regional",246,387
+"Chilliwack General",119,232
+"Langley Memorial",165,466
+"Lions Gate",130,273
 "Squamish General",89,185
-"Whistler Health Care Centre",28,112
+"Whistler Health Care Centre",28,111
 "Pemberton Health Centre",49,106
-"Sechelt",146,263
+"Sechelt",145,262.5
 "Richmond",229,332
 "Richmond Urgent and Primary Care Centre",178,181
-"Delta",134.5,265
-"Vancouver General",250,431
-"St. Paul's",105,253
+"Delta",135,265
+"Vancouver General",249.5,431
+"St. Paul's",106,253
 "Northeast Urgent and Primary Care Centre",159,164
-"Southeast Urgent and Primary Care Centre",152,155.5
+"Southeast Urgent and Primary Care Centre",152.5,156
 "B.C. Children’s",178,290
-"Burnaby",194,304
-"Eagle Ridge",253,369
-"Peace Arch",193,304
-"Ridge Meadows",136,250
+"Burnaby",194,303
+"Eagle Ridge",255,369
+"Peace Arch",192,304
+"Ridge Meadows",137,250
 "Royal Columbian",161,310
 "Surrey Memorial",210,337
 "Mount Saint Joseph",107,179
